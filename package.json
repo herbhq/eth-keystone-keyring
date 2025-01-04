@@ -1,0 +1,31 @@
+{
+  "name": "@herbhq/eth-keystone-keyring",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbhq/eth-keystone-keyring.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herbhq/eth-keystone-keyring/issues"
+  },
+  "homepage": "https://github.com/herbhq/eth-keystone-keyring#readme",
+  "dependencies": {
+    "@ethereumjs/tx": "^3.4.0",
+    "@keystonehq/base-eth-keyring": "^0.3.1",
+    "@keystonehq/bc-ur-registry-eth": "0.6.12",
+    "@keystonehq/metamask-airgapped-keyring": "^0.2.1",
+    "@metamask/obs-store": "^7.0.0",
+    "events": "^3.3.0",
+    "rlp": "^2.2.7",
+    "tsdx": "^0.14.1",
+    "typescript": "3.9.10",
+    "uuid": "^8.3.2"
+  }
+}
